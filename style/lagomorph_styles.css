@@ -1,0 +1,485 @@
+/***********************************/
+/*      Lagomorph CSS Settings     */
+/***********************************/
+
+/* Default theme colours
+   Off-White colour #f9f7eb
+   Off-Black colour #0d0d00
+   bgcolour1        #5B2702
+   bgcolour2        #da832c
+   bgcolour3        #D7B49B
+*/
+
+@media screen and (min-width:600px){
+#page {    
+    background : transparent url([[setting:pgimage]]) no-repeat left top;
+} 
+   }
+@media screen and (min-width:1000px){
+#page-header h1.headermain {
+    margin-left:275px;
+    } 
+   }
+#page-header h1.headermain {
+    font-size:5em;
+    color:[[setting:offblack]];
+    font-weight:900;
+    text-shadow:3px 3px 3px [[setting:bgcolour2]], 5px 5px 8px [[setting:offwhite]];
+        zoom: 1;	
+        filter: progid:DXImageTransform.Microsoft.Chroma(Color=[[setting:bgcolour1]])
+		progid:DXImageTransform.Microsoft.Glow(Strength=5, Color=[[setting:offwhite]]);
+    }
+#headertable {
+    float:left;
+    margin:0;
+    }
+#page-header h1.headerfull {
+    float:left;
+    margin-top:0px;margin-bottom:0px;
+    font-size:3em;
+    font-weight:900;
+    color:[[setting:offblack]];
+    text-shadow:3px 3px 3px [[setting:bgcolour2]], 5px 5px 8px [[setting:offwhite]];
+        zoom: 1;	
+        filter: progid:DXImageTransform.Microsoft.Chroma(Color=[[setting:bgcolour1]])
+		progid:DXImageTransform.Microsoft.Glow(Strength=5, Color=[[setting:offwhite]]);
+    clear:left;
+    }
+#page-header h3.headersub {
+    float:left;
+    margin-top:0px;margin-bottom:0px;
+    font-size:2em;
+    font-weight:900;
+    color:[[setting:offblack]];
+    text-shadow:3px 3px 3px [[setting:bgcolour2]], 5px 5px 8px [[setting:offwhite]];
+        zoom: 1;	
+        filter: progid:DXImageTransform.Microsoft.Chroma(Color=[[setting:bgcolour1]])
+		progid:DXImageTransform.Microsoft.Glow(Strength=5, Color=[[setting:offwhite]]);
+    }
+.block .content {
+    background-color:[[setting:offwhite]];
+    }
+
+
+#region-main .region-content {
+    border:1px solid [[setting:offblack]];
+}
+
+#region-main .region-content .course-content h2.headingblock, #region-main .region-content h2.headingblock {
+    margin:0;
+    font-size:1.75em;
+}
+#region-main .region-content .course-content ul{
+    background-color:[[setting:offwhite]];
+}
+.generalbox {
+    border: none;
+}
+
+#top_block {
+
+    }
+#topleft_block {
+    width:48%;
+    margin-left:1%;
+    float:left;
+    }
+#topright_block {
+    width:48%;
+    margin-right:1%;
+    float:right;
+    }
+#bottom_block {
+
+    }
+#bottomleft_block {
+    width:48%;
+    margin-left:1%;
+    float:left;
+    }
+#bottomright_block {
+    width:48%;
+    margin-right:1%;
+    float:right;
+    }
+    
+/***********************************/
+/*    Profile Block CSS Settings   */
+/***********************************/
+
+@media screen and (min-width:800px) {
+#profileblock {
+    float : right;
+    text-align : right;
+    width : 400px;
+    right : 0;
+    }
+#profilepic {
+    text-align : right;
+    float : right;
+    margin-top : 2px;
+    margin-left : 2px;
+    margin-bottom : 2px;
+    margin-right : 0;
+    width : 80px;
+    height : 80px;
+    border: 4px ridge [[setting:bgcolour1]];
+    display : inline;
+    }
+#profilepic img {
+    width : 78px;
+    height : 78px;
+    border : 1px solid [[setting:offwhite]];
+    }
+#profilelogin {
+    text-align : right;
+    width : 250px;
+    margin-right : 0;
+    margin-top : -26px;
+    margin-bottom : 0;
+    float : right;
+    }
+#profilelogin ul li {
+    padding-left : 10px;
+    padding-right : 0;
+    display : inline;
+    margin-right : 0;
+    }
+.profilelogin .loginform {
+    width : 8em;
+    margin-left : 4px;
+    display : inline;
+    }
+.profilelogin, .profilelogin a {
+    text-decoration : none;
+    }
+.profilelogin, .profilelogin a:hover {
+    text-decoration : none;
+    }
+#profilename {
+    text-align : right;
+    width : 250px;
+    margin: 0;
+    float : right;
+    }
+#profilename ul li {
+    padding-left : 10px;
+    padding-right : 0;
+    display : inline;
+    margin-right : 0;
+    }
+#profilename img {
+    vertical-align : middle;
+    }
+.profilename .loginform {
+    width : 5em;
+    margin-left : 4px;
+    display : inline;
+    font-size : 0.8em;
+    }
+.profilename, .profilename a {
+    font-size : 1.5em;
+    color:[[setting:offblack]];
+    letter-spacing : -2px;
+    text-decoration : none;
+    font-weight : bold;
+    margin-right : 12px;
+    text-shadow:1px 1px 1px [[setting:bgcolour1]], 3px 3px 5px [[setting:bgcolour2]]; 
+}
+
+.profilename, .profilename a:hover {
+    text-decoration : none;
+    }
+}
+#logout {
+    font-size:0.75em;
+    color:[[setting:offblack]];
+    text-decoration : none;
+    font-weight : bold;
+    margin-right : 0px;
+    text-shadow:1px 1px 1px [[setting:bgcolour1]], 3px 3px 5px [[setting:bgcolour2]]; 
+    }
+
+@media screen and (max-width:799px) {
+#profileblock {
+    float : right;
+    text-align : right;
+    width : 200px;
+    right : 0;
+    }
+#profilepic {
+    display : none;
+    }
+#profilepic img {
+    width : 78px;
+    height : 78px;
+    border : 1px solid [[setting:offwhite]];
+    }
+#profilelogin {
+    text-align : right;
+    width : 180px;
+    margin-right : 0;
+    margin-top : -26px;
+    margin-bottom : 0;
+    float : right;
+    }
+#profilelogin ul li {
+    padding-left : 10px;
+    padding-right : 0;
+    display : inline;
+    margin-right : 0;
+    }
+.profilelogin .loginform {
+    width : 100%;
+    margin-left : 0px;
+    display : inline;
+    }
+.profilelogin, .profilelogin a {
+    text-decoration : none;
+    }
+.profilelogin, .profilelogin a:hover {
+    text-decoration : none;
+    }
+#profilename {
+    text-align : right;
+    width : 180px;
+    margin: 0;
+    float : right;
+    }
+#profilename ul li {
+    padding-left : 10px;
+    padding-right : 0;
+    display : inline;
+    margin-right : 0;
+    }
+#profilename img {
+    vertical-align : middle;
+    }
+.profilename .loginform {
+    width : 5em;
+    margin-left : 4px;
+    display : inline;
+    font-size : 0.8em;
+    }
+.profilename, .profilename a {
+    font-size : 1.5em;
+    color:[[setting:offblack]];
+    letter-spacing : -2px;
+    text-decoration : none;
+    font-weight : bold;
+    margin-right : 12px;
+    text-shadow:1px 1px 1px [[setting:bgcolour1]], 3px 3px 5px [[setting:bgcolour2]];   
+        zoom: 1;	
+        filter: progid:DXImageTransform.Microsoft.Chroma(Color=[[setting:bgcolour1]])
+		progid:DXImageTransform.Microsoft.Glow(Strength=5, Color=[[setting:offwhite]]); 
+    }
+.profilename, .profilename a:hover {
+    text-decoration : none;
+    }
+}
+
+/***************************/
+/* STYLING FOR SELECT MENU */ /*This is the menu which converts to a form select on small screens*/
+/***************************/
+    nav {
+      display: block;
+      width: 100%;
+      margin-top: 0px;margin-bottom:15px;
+      text-align: right;
+      margin-right:5px;
+      float:right;
+    }
+    
+/* MENU STYLE FOR LARGE SCREEN */
+@media screen and (min-width: 800px) {
+    nav ul {
+      list-style: none;
+      margin:0;
+    }
+    nav li {
+      display: inline-block;
+    }
+    nav a {
+      display: inline-block;
+      background: [[setting:bgcolour2]];
+      color: white;
+      padding: 5px 15px;
+      border: 3px ridge [[setting:bgcolour2]];
+      text-decoration: none;
+    }
+    nav a:hover {
+      border: 3px groove [[setting:bgcolour2]];
+      background: [[setting:bgcolour1]];
+    }
+    nav a:active {
+      background: transparent;
+    }
+    nav select {
+      display: none;
+    }
+}
+/* MENU ADJUSTMENTS FOR SMALL SCREEN */
+@media screen and (max-width: 799px) {
+   nav ul     { display: none; }
+   nav select { display: inline-block; }
+}
+
+
+/***************************/
+/* STYLING FOR CUSTOM MENU */ /*This is the standard Moodle2 CustomMenu*/
+/***************************/
+@media screen and (max-width: 599px) {   /*  Hide custom menu on smallest screens  */
+   #custommenu {display:none;}
+}
+
+.yui3-skin-sam .yui3-menu-content, .yui3-skin-sam .yui3-menu .yui3-menu-content, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-content {
+border:none; background:none;
+}
+
+#custommenu {
+border : none !important ;
+height : 25px;
+}
+
+div.yui3-menu.yui3-menu-horizontal {
+background : transparent !important ;
+border : none !important ;
+float : left;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label {
+background-image: none !important;
+}
+
+div.yui3-menu-content {
+border : none !important ;
+background : transparent !important ;
+}
+
+.yui3-menu-horizontal .yui3-menu-label {
+padding-left : 16px !important ;
+color : #ffffff !important ;
+}
+
+.yui3-menu-content li {
+border : none !important ;
+}
+
+
+#custommenu ul {
+    background:none;
+}
+
+#custommenu ul li a{
+      background-color: [[setting:bgcolour2]];
+      color: white;
+      text-decoration: none;
+      padding: 2px 20px 2px 15px;
+      border: 3px ridge [[setting:bgcolour2]];
+              border-radius: 20px;
+         -moz-border-radius: 20px;
+      -webkit-border-radius: 20px; 
+
+              box-shadow:3px 3px 5px [[setting:offwhite]];
+         -moz-box-shadow:3px 3px 5px [[setting:offwhite]];
+      -webkit-box-shadow:3px 3px 5px [[setting:offwhite]];
+}
+#custommenu ul li a:hover {
+      border: 3px groove [[setting:bgcolour2]];
+      background-color: [[setting:bgcolour1]];
+    }
+#custommenu ul li.clickable-with-children > a{
+background-image:url([[pix:theme|menu/navarrow]]) !important ;background-position:100% 50%;background-repeat:no-repeat;}
+
+
+#custommenu ul li ul {
+background-color:transparent;
+}
+
+#custommenu  ul li .yui3-menu-content {
+background-color:transparent;
+}
+
+#custommenu ul li ul li {
+background-color:transparent;
+}
+
+/**************************************/
+/*    Additional css3 background      */
+/*   gradients, box and text shadows  */
+/**************************************/
+
+body {
+
+  background-color: [[setting:bgcolour1]];
+  background-image: -webkit-gradient(linear, left top, left bottom, from([[setting:bgcolour1]]), to([[setting:bgcolour3]])); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, [[setting:bgcolour1]], [[setting:bgcolour3]] 20%, [[setting:bgcolour3]]); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient(top, [[setting:bgcolour1]], [[setting:bgcolour3]] 20%, [[setting:bgcolour3]]); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, [[setting:bgcolour1]], [[setting:bgcolour3]] 20%, [[setting:bgcolour3]]); /* IE10 */
+  background-image:      -o-linear-gradient(top, [[setting:bgcolour1]], [[setting:bgcolour3]] 20%, [[setting:bgcolour3]]); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, [[setting:bgcolour1]], [[setting:bgcolour3]] 20%, [[setting:bgcolour3]]);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='[[setting:bgcolour1]]', EndColorStr='[[setting:bgcolour3]]'); /* IE6–IE9 */
+
+}
+
+#profilepic {
+       -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+}
+#profilepic img {
+       -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+            border-radius: 18px;
+}
+
+.block {
+            box-shadow:3px 3px 5px [[setting:bgcolour2]];
+       -moz-box-shadow:3px 3px 5px [[setting:bgcolour2]];
+    -webkit-box-shadow:3px 3px 5px [[setting:bgcolour2]];
+
+  background-color: [[setting:bgcolour2]];
+  background-image: -webkit-gradient(linear, left top, right top, from([[setting:bgcolour2]]), to([[setting:bgcolour3]])); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(left, [[setting:bgcolour2]], [[setting:bgcolour3]]); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient(left, [[setting:bgcolour2]], [[setting:bgcolour3]]); /* FF3.6 */
+  background-image:     -ms-linear-gradient(left, [[setting:bgcolour2]], [[setting:bgcolour3]]); /* IE10 */
+  background-image:      -o-linear-gradient(left, [[setting:bgcolour2]], [[setting:bgcolour3]]); /* Opera 11.10+ */
+  background-image:         linear-gradient(left, [[setting:bgcolour2]], [[setting:bgcolour3]]);
+/*            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='[[setting:bgcolour2]]', EndColorStr='[[setting:bgcolour3]]', GradientType=1); MS filter removed as it does not seem to cope with rounded corners */ /* IE6–IE9 */
+
+       -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+     }
+
+.block .content {
+       -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+            border-radius: 0 0 10px 10px; 
+    }
+.block_course_summary .content{
+       -moz-border-radius: 10px;
+    -webkit-border-radius:10px;
+            border-radius: 10px;
+    }
+
+#region-main .region-content {
+            box-shadow:3px 3px 5px [[setting:bgcolour2]];
+       -moz-box-shadow:3px 3px 5px [[setting:bgcolour2]];
+    -webkit-box-shadow:3px 3px 5px [[setting:bgcolour2]];
+    
+       -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+
+nav a, nav a:hover { 
+       -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+
+            box-shadow:3px 3px 5px [[setting:offwhite]];
+       -moz-box-shadow:3px 3px 5px [[setting:offwhite]];
+    -webkit-box-shadow:3px 3px 5px [[setting:offwhite]];
+}
+

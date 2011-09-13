@@ -1,0 +1,6 @@
+bgcolour1|#ff0000;
+bgcolour2|#00ff00;
+bgcolour3|#0000ff;
+offwhite|#ddffdd;
+offblack|#002200;
+pgimage|http://oelmann.dyndns-remote.com/moodle21/pluginfile.php/22/mod_resource/content/1/oses.png
